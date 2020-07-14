@@ -1,3 +1,4 @@
+# script to automate docker install on Ubuntu/Debian 
 sudo apt update -y
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 sudo apt remove gpg
