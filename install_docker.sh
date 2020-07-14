@@ -9,6 +9,6 @@ sudo add-apt-repository -y  "deb [arch=amd64] https://download.docker.com/linux/
    $(lsb_release -cs) \
    stable"
 sudo apt update -y
-sudo apt install docker-ce -y
+sudo apt install -y docker-ce 
 sudo groupadd docker
 sudo usermod -a -G docker $USER
