@@ -4,7 +4,7 @@ sudo apt update -y
 # install pre-required packages
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 
-# reinstal gpg in case the if the packages is broken (sometimes ubuntu shipped with broken gpg)
+# reinstall gpg in case the if the packages is broken (sometimes ubuntu shipped with broken gpg)
 sudo apt remove gpg
 sudo apt update -y
 sudo apt install -y gnupg1
