@@ -32,4 +32,4 @@ sudo apt-get install -y python3 python3-pip
 pip3 install --user docker-compose
 
 RED='\033[0;31m'
-printf "${RED}Please sign out and re-login in order to run Docker!\n"
+printf "${RED}Please logout and re-login in order to run Docker!\n"
