@@ -31,6 +31,9 @@ sudo apt-get install -y python3 python3-pip
 # Install Docker Compose into your user's home directory.
 pip3 install --user docker-compose
 
+# starting docker service
+sudo service docker start
+
 LBLUE='\033[1;34m'
 NC='\033[0;35m'
 printf "${LBLUE}To test run ${NC}docker run hellow-world ${LBLUE}if you face error try relogin!\n"
