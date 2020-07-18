@@ -1,5 +1,5 @@
 ## this script to automate docker install on Ubuntu/Debian linux distributions
-sudo apt update && apt upgrade -y && apt autoremove && apt autoclean
+sudo apt update -y && apt autoremove -y && apt autoclean -y
 
 # install pre-required packages
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
