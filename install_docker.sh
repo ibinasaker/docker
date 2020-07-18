@@ -33,4 +33,4 @@ pip3 install --user docker-compose
 
 LBLUE='\033[1;34m'
 NC='\033[0;35m'
-printf "${LBLUE}To test run ${NC}docker run hellow-world ${LBLUE}if you faces error try relogin!\n"
+printf "${LBLUE}To test run ${NC}docker run hellow-world ${LBLUE}if you face error try relogin!\n"
