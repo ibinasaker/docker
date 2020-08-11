@@ -40,4 +40,4 @@ LBLUE='\033[1;34m'
 NC='\033[0;35m'
 printf "${LBLUE}To test run ${NC}docker run hellow-world\n"
 printf "${LBLUE}if you get docker deamon error try running ${NC}sudo service docker start \n"
-printf "${LBLUE}if you face permission issues try relogin!\n"
+printf "${LBLUE}if you face permission issues try to re-login!\n"
